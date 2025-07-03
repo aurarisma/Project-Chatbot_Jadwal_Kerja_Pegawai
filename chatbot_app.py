@@ -8,26 +8,19 @@ import streamlit as st
 import pandas as pd
 import nltk
 from nltk.stem.porter import PorterStemmer
+from nltk.tokenize import RegexpTokenizer
 import json
 import re
 import os
 import random
 
-# Tambahkan path ke resource nltk lokal
-nltk.data.path.append("./nltk_data")
-
-# Validasi apakah resource punkt tersedia
-try:
-    nltk.data.find("tokenizers/punkt")
-except LookupError:
-    st.error("Resource NLTK belum tersedia. Harap pastikan folder `nltk_data` ada dan berisi tokenizer `punkt`.")
-    st.stop()
-
-# Fungsi tokenize dan stem
+# Gunakan tokenizer tanpa dependensi punkt
+tokenizer = RegexpTokenizer(r'\w+')
 stemmer = PorterStemmer()
 
+# Fungsi tokenize dan stem
 def tokenize(sentence):
-    return nltk.word_tokenize(sentence)
+    return tokenizer.tokenize(sentence)
 
 def stem(word):
     return stemmer.stem(word.lower())
