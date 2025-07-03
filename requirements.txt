@@ -1,9 +1,5 @@
-torch
-numpy
 streamlit
+torch==2.0.1
 pandas
 nltk
-json
-re 
-os
-random
+numpy
