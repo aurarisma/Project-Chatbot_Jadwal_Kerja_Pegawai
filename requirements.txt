@@ -1,0 +1,9 @@
+torch
+numpy
+streamlit
+pandas
+nltk
+json
+re 
+os
+random
