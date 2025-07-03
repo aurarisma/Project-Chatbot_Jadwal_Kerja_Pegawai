@@ -1,5 +1,6 @@
 streamlit
-torch==2.0.1
+torch==1.13.1+cpu
 pandas
 nltk
 numpy
+-f https://download.pytorch.org/whl/torch_stable.html
