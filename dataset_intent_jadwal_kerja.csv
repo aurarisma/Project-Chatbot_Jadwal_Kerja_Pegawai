@@ -1,0 +1,72 @@
+intent,text,entity
+jadwal_hari_ini,Apa saja jadwal kerja hari ini?,
+jadwal_hari_ini,Hari ini kerja apa saja?,
+jadwal_hari_ini,Apa tugas hari ini?,
+jadwal_hari_ini,Apakah ada pekerjaan hari ini?,
+jadwal_hari_ini,Siapa yang bertugas hari ini dan jam berapa?,
+jadwal_hari_tertentu,Jadwal kerja hari Senin apa saja?,hari=Senin
+jadwal_hari_tertentu,Pekerjaan di hari Senin ada apa aja?,hari=Senin
+jadwal_hari_tertentu,Hari Senin ada tugas apa?,hari=Senin
+jadwal_hari_tertentu,Apa jadwal kerja di hari Senin?,hari=Senin
+jadwal_hari_tertentu,Jadwal hari Senin itu apa saja?,hari=Senin
+jadwal_hari_tertentu,Jadwal kerja hari Selasa apa saja?,hari=Selasa
+jadwal_hari_tertentu,Pekerjaan di hari Selasa ada apa aja?,hari=Selasa
+jadwal_hari_tertentu,Hari Selasa ada tugas apa?,hari=Selasa
+jadwal_hari_tertentu,Apa jadwal kerja di hari Selasa?,hari=Selasa
+jadwal_hari_tertentu,Jadwal hari Selasa itu apa saja?,hari=Selasa
+jadwal_hari_tertentu,Jadwal kerja hari Rabu apa saja?,hari=Rabu
+jadwal_hari_tertentu,Pekerjaan di hari Rabu ada apa aja?,hari=Rabu
+jadwal_hari_tertentu,Hari Rabu ada tugas apa?,hari=Rabu
+jadwal_hari_tertentu,Apa jadwal kerja di hari Rabu?,hari=Rabu
+jadwal_hari_tertentu,Jadwal hari Rabu itu apa saja?,hari=Rabu
+jadwal_hari_tertentu,Jadwal kerja hari Kamis apa saja?,hari=Kamis
+jadwal_hari_tertentu,Pekerjaan di hari Kamis ada apa aja?,hari=Kamis
+jadwal_hari_tertentu,Hari Kamis ada tugas apa?,hari=Kamis
+jadwal_hari_tertentu,Apa jadwal kerja di hari Kamis?,hari=Kamis
+jadwal_hari_tertentu,Jadwal hari Kamis itu apa saja?,hari=Kamis
+jadwal_hari_tertentu,Jadwal kerja hari Jumat apa saja?,hari=Jumat
+jadwal_hari_tertentu,Pekerjaan di hari Jumat ada apa aja?,hari=Jumat
+jadwal_hari_tertentu,Hari Jumat ada tugas apa?,hari=Jumat
+jadwal_hari_tertentu,Apa jadwal kerja di hari Jumat?,hari=Jumat
+jadwal_hari_tertentu,Jadwal hari Jumat itu apa saja?,hari=Jumat
+jadwal_hari_tertentu,Jadwal kerja hari Sabtu apa saja?,hari=Sabtu
+jadwal_hari_tertentu,Pekerjaan di hari Sabtu ada apa aja?,hari=Sabtu
+jadwal_hari_tertentu,Hari Sabtu ada tugas apa?,hari=Sabtu
+jadwal_hari_tertentu,Apa jadwal kerja di hari Sabtu?,hari=Sabtu
+jadwal_hari_tertentu,Jadwal hari Sabtu itu apa saja?,hari=Sabtu
+jadwal_hari_tertentu,Jadwal kerja hari Minggu apa saja?,hari=Minggu
+jadwal_hari_tertentu,Pekerjaan di hari Minggu ada apa aja?,hari=Minggu
+jadwal_hari_tertentu,Hari Minggu ada tugas apa?,hari=Minggu
+jadwal_hari_tertentu,Apa jadwal kerja di hari Minggu?,hari=Minggu
+jadwal_hari_tertentu,Jadwal hari Minggu itu apa saja?,hari=Minggu
+jadwal_berdasarkan_lokasi,Apa saja pekerjaan di Gudang A?,lokasi=Gudang A
+jadwal_berdasarkan_lokasi,Saya mau lihat pekerjaan di Gudang A,lokasi=Gudang A
+jadwal_berdasarkan_lokasi,Pekerjaan apa aja di Gudang A?,lokasi=Gudang A
+jadwal_berdasarkan_lokasi,Gudang A ada tugas apa?,lokasi=Gudang A
+jadwal_berdasarkan_lokasi,Tugas apa yang diadakan di Gudang A?,lokasi=Gudang A
+jadwal_berdasarkan_lokasi,Ada berapa tugas di Gudang A?,lokasi=Gudang A
+jadwal_berdasarkan_lokasi,Tampilkan jadwal kerja di Gudang A,lokasi=Gudang A
+jadwal_berdasarkan_lokasi,Apa pekerjaan yang diadakan di Gudang A?,lokasi=Gudang A
+jadwal_berdasarkan_lokasi,Apa saja pekerjaan di Kantor Utama?,lokasi=Kantor Utama
+jadwal_berdasarkan_lokasi,Saya mau lihat pekerjaan di Kantor Utama,lokasi=Kantor Utama
+jadwal_berdasarkan_lokasi,Ada tugas apa di Kantor Utama?,lokasi=Kantor Utama
+jadwal_berdasarkan_lokasi,Siapa yang kerja di Kantor Utama?,lokasi=Kantor Utama
+jadwal_berdasarkan_lokasi,Tampilkan jadwal kerja di Kantor Utama,lokasi=Kantor Utama
+jadwal_berdasarkan_lokasi,Jadwal tugas Kantor Utama apa saja?,lokasi=Kantor Utama
+jadwal_per_shift,Shift pagi pekerjaannya apa saja?,shift=pagi
+jadwal_per_shift,Apa saja jadwal kerja shift siang?,shift=siang
+jadwal_per_shift,Tugas apa di shift malam?,shift=malam
+jadwal_per_shift,Siapa saja yang bekerja di shift malam?,shift=malam
+jadwal_per_shift,Tugas shift pagi apa?,shift=pagi
+jadwal_per_shift,Shift siang tugasnya apa saja?,shift=siang
+jadwal_per_shift,Shift malam tugasnya apa?,shift=malam
+jadwal_karyawan,Pak Andi kerja hari apa saja?,karyawan=Andi
+jadwal_karyawan,Apa saja pekerjaan Andi minggu ini?,karyawan=Andi
+jadwal_karyawan,Jadwal kerja Pak Andi?,karyawan=Andi
+jadwal_karyawan,Andi bertugas di mana dan jam berapa?,karyawan=Andi
+jadwal_karyawan,Andi tugasnya apa hari ini?,karyawan=Andi
+jadwal_karyawan,Bu Sari kerja di mana saja?,karyawan=Sari
+jadwal_karyawan,Apa saja tugas Bu Sari?,karyawan=Sari
+jadwal_karyawan,Jadwal kerja Bu Sari hari ini?,karyawan=Sari
+jadwal_karyawan,Sari bertugas di lokasi mana?,karyawan=Sari
+jadwal_karyawan,Sari kerja di shift apa?,karyawan=Sari
