@@ -16,6 +16,13 @@ import random
 # Tambahkan path ke resource nltk lokal
 nltk.data.path.append("./nltk_data")
 
+# Validasi apakah resource punkt tersedia
+try:
+    nltk.data.find("tokenizers/punkt")
+except LookupError:
+    st.error("Resource NLTK belum tersedia. Harap pastikan folder `nltk_data` ada dan berisi tokenizer `punkt`.")
+    st.stop()
+
 # Fungsi tokenize dan stem
 stemmer = PorterStemmer()
 
@@ -153,10 +160,7 @@ st.markdown("Tanyakan tentang jadwal kerja berdasarkan hari, shift, lokasi, atau
 user_input = st.text_input("Ketik pertanyaan kamu:", "Siapa yang kerja hari Senin?")
 
 if st.button("Tanya"):
-    try:
-        intent = predict_class(user_input)
-        entity = extract_entity(user_input)
-        response = get_response(intent, entity)
-    except LookupError as e:
-        response = "Resource NLTK belum tersedia. Harap pastikan folder `nltk_data` ada dan berisi tokenizer `punkt`."
+    intent = predict_class(user_input)
+    entity = extract_entity(user_input)
+    response = get_response(intent, entity)
     st.write(response)
