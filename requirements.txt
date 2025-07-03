@@ -1,6 +1,0 @@
-streamlit
-torch==1.13.1+cpu
-pandas
-nltk
-numpy
--f https://download.pytorch.org/whl/torch_stable.html
